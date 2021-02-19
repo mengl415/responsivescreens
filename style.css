@@ -19,7 +19,7 @@ body {
     left: 5%;
     width: 25rem;
     height: 25rem;
-    content: url(/assets/bunny.png);
+    content: url(./assets/bunny.png);
     opacity: 0.5;
     z-index: 5;
 }
