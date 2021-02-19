@@ -147,6 +147,112 @@ body {
     z-index: 10;
 }
 
+.bunnyText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 1rem;
+    margin-left: 0;
+}
+
+.bearText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 17rem;
+
+}
+
+.catText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 33rem;
+}
+
+.controllerText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 49rem;
+}
+
+.flowerText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 65rem;
+}
+
+.giraffeText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 1rem;
+    left: 81rem;
+}
+
+.peaText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 16rem;
+    left: 1rem;
+}
+
+.pencilsText{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    z-index: 1;
+    opacity: 1;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    top: 16rem;
+    left: 17rem;
+}
+
 
 @media screen and (max-width: 60rem){
     .bunny{
@@ -209,8 +315,146 @@ body {
         width: 10rem;
         height: 10rem;
     }
+    .bunnyText{
+        opacity: 0;
+    }
+    .bearText{
+        opacity: 0;
+    }
+    .catText{
+        opacity: 0;
+    }
+    .flowerText{
+        opacity: 0;
+    }
+    .controllerText{
+        opacity: 0;
+    }
+    .giraffeText{
+        opacity: 0;
+    }
+    .peaText{
+        opacity: 0;
+    }
+    .pencilsText{
+        opacity: 0;
+    }
+
 }
 
-@media screen and (max-width: 24.5rem){
-
+@media screen and (max-width: 31.5rem){
+    .container{
+        min-height: 200vh;
+    }
+    .bunny{
+        opacity: 0;
+        z-index: 1;
+    }
+    .bunny:hover{
+        opacity: 0;
+    }
+    .bear{
+        opacity: 0;
+        z-index: 1;
+    }
+    .bear:hover{
+        opacity: 0;
+    }
+    .cat{
+        opacity: 0;
+        z-index: 1;
+    }
+    .cat:hover{
+        opacity: 0;
+    }
+    .controller{
+        opacity: 0;
+        z-index: 1;
+    }
+    .controller:hover{
+        opacity: 0;
+    }
+    .flower{
+        opacity: 0;
+        z-index: 1;
+    }
+    .flower:hover{
+        opacity: 0;
+    }
+    .giraffe{
+        opacity: 0;
+        z-index: 1;
+    }
+    .giraffe:hover{
+        opacity: 0;
+    }
+    .pea{
+        opacity: 0;
+        z-index: 1;
+    }
+    .pea:hover{
+        opacity: 0;
+    }
+    .pencils{
+        opacity: 0;
+        z-index: 1;
+    }
+    .pencils:hover{
+        opacity: 0;
+    }
+    .toybox{
+        position: absolute;
+        left: 32%;
+        width: 10rem;
+        height: 10rem;
+    }
+    .bunnyText{
+        position: absolute;
+        opacity: 1;
+        top: 8rem;
+        left: 8rem;
+    }
+    .bearText{
+        position: absolute;
+        opacity: 1;
+        top: 18rem;
+        left: 8rem;
+    }
+    .catText{
+        position: absolute;
+        opacity: 1;
+        top: 28rem;
+        left: 8rem;
+    }
+    .flowerText{
+        position: absolute;
+        opacity: 1;
+        top: 58rem;
+        left: 8rem;
+    }
+    .controllerText{
+        position: absolute;
+        opacity: 1;
+        top: 48rem;
+        left: 8rem;
+        width: 18rem;
+    }
+    .giraffeText{
+        position: absolute;
+        opacity: 1;
+        top: 66rem;
+        left: 8rem;
+    }
+    .peaText{
+        position: absolute;
+        opacity: 1;
+        top: 38rem;
+        left: 8rem;
+    }
+    .pencilsText{
+        position: absolute;
+        opacity: 1;
+        top: 77rem;
+        left: 8rem;
+    }
 }
